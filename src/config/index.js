@@ -1,6 +1,6 @@
 module.exports = {
   env: process.env.NODE_ENV || 'development',
-  port: process.env.API_PORT || 3000,
+  port: process.env.API_PORT || 10000,
   version: process.env.VERSION || 'prod',
 
   developers: process.env.DEVELOPERS
