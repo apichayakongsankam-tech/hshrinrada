@@ -9,16 +9,12 @@
   },
   "keywords": [],
   "author": "Kaiwaii4ever",
-  "_moduleAliases": {
-    "@src": "src",
-    "@config": "src/config",
-    "@routes": "src/routes",
-    "@controllers": "src/controllers",
-    "@services": "src/services",
-    "@models": "src/models",
-    "@utils": "src/utils",
-    "@data": "data"
-  },
+ "_moduleAliases": {
+  "@config": "config",
+  "@routes": "routes",
+  "@src": "src",
+  "@models": "models"
+}
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
