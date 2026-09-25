@@ -1,18 +1,16 @@
 {
   "name": "hshrinrada",
   "version": "1.0.0",
-  "description": "HSH Online Custom API Server",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "_moduleAliases": {
-    "@config": "config",
-    "@routes": "routes",
+    "@config": "src/config",
+    "@routes": "src/routes",
     "@src": "src",
-    "@models": "models"
+    "@models": "src/models"
   },
-  "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
